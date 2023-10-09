@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+
+        <!--- basic page needs
+        ================================================== -->
+        <meta charset="utf-8">
+         <title>Project JEE</title>
+         <meta name="description" content="">  
+         <meta name="author" content="">
+     
+        <!-- mobile specific metas
+        ================================================== -->
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     
+          <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/vendor.css">  
+        <link rel="stylesheet" href="css/main.css">
+             
+     
+        <!-- script
+        ================================================== -->
+         <script src="js/modernizr.js"></script>
+         <script src="js/pace.min.js"></script>
+     
+        <!-- favicons
+         ================================================== -->
+         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+       <link href="css/style.css" rel="stylesheet" type="text/css" />
+       <script type="text/javascript" src="js/cufon-yui.js"></script>
+       <script type="text/javascript" src="js/arial.js"></script>
+       <script type="text/javascript" src="js/cuf_run.js"></script>
+     </head>
+<body>
+
+      <!-- header 
+   ================================================== -->
+   <header class="short-header">   
+
+    <div class="gradient-block"></div>	
+
+    <div class="row header-content">
+
+        <div class="logo">
+          <a href="trangchu.html"></a>
+       </div>
+
+        <nav id="main-nav-wrap">
+             <ul class="main-navigation sf-menu">
+                 <li class="current"><a href="index.html" title="">Home</a></li>									
+                 <li class="has-children">
+                     <a href="category.html" title="">Thể Loại</a>
+                     <ul class="sub-menu">
+                     <li><a href="category.html">Thể Thao</a></li>
+                     <li><a href="category.html">Thế Giới</a></li>
+                     <li><a href="category.html">Giải Trí</a></li>
+                     <li><a href="category.html">Cảnh Đẹp</a></li>
+                     <li><a href="category.html">Món Ăn</a></li>
+                     <li><a href="category.html">Công Nghệ</a></li>
+                     <li><a href="category.html">Làm Đẹp</a></li>
+                  </ul>
+                 </li>
+                <li><a href="Admin.html" title="">Quản lý</a></li>
+                 <li><a href="Profile.html" title="">Profile</a></li>
+                 <li><a href="login.html" title="">Đăng nhập</a></li>
+                 <li><a href="register.html" title="">Đăng ký </a></li>
+                                                         
+             </ul>
+         </nav> <!-- end main-nav-wrap -->
+
+         <div class="search-wrap">
+             
+             <form role="search" method="get" class="search-form" action="#">
+                 <label>
+                     <span class="hide-content">Search for:</span>
+                     <input type="search" class="search-field" placeholder="Type Your Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                 </label>
+                 <input type="submit" class="search-submit" value="Search">
+             </form>
+
+             <a href="#" id="close-search" class="close-btn">Close</a>
+
+         </div> <!-- end search wrap -->	
+
+         <div class="triggers">
+             <a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
+             <a class="menu-toggle" href="#"><span>Menu</span></a>
+         </div> <!-- end triggers -->	
+        
+    </div>     		
+    
+</header> <!-- end header --> 
+      
+
+<div class="body">
+    <div class="body_resize">
+      <div class="left">
+        <div class="item">
+          <h2>Sửa tin</h2>
+          <form action="" method="post" enctype="multipart/form-data" id="contactform">
+            <ol>
+              <li>
+                <label>Tên tin*</label>
+                <input type="text" value="Hướng dẫn thiết kế database - Dự án JSP/Servlet" name="name" required class="text" />
+              </li>
+              <li>
+                <label>Danh mục*</label>
+                <select name="category">
+                  <option value="1" >Thể Thao</option>
+                  <option value="2" >Thế Giới</option>
+                  <option value="3" >Giải Trí</option>
+                  <option value="4" >Cảnh Đẹp</option>
+                  <option value="4" >Món Ăn</option>
+                  <option value="4" >Công Nghệ</option>
+                  <option value="4" >Làm Đẹp</option>
+                </select>
+              </li>
+              <li>
+                <label>Mô tả*</label>
+                <textarea name="description" required rows="6" cols="50">Sau khi chuẩn bị vững vàng mọi kiến thức để bắt đầu một project thì công việc tiếp theo khá quan trọng đó là
+            phân tích và thiết kế database. Trong bài này, tiếp tục dự án Java web tin tức với JSP Servlet, chúng ta sẽ
+            đi vào tìm hiểu cách phân tích, thiết kế một database trong dự án thực tế sẽ như thế nào (xem thử có ăn được
+            không 😀 )</textarea>
+              </li>
+              <li>
+                <label>Chi tiết*</label>
+                <textarea name="detail" required rows="10" cols="50">Sau khi chuẩn bị vững vàng mọi kiến thức để bắt đầu một project thì công việc tiếp theo khá quan trọng đó là
+            phân tích và thiết kế database. Trong bài này, tiếp tục dự án Java web tin tức với JSP Servlet, chúng ta sẽ
+            đi vào tìm hiểu cách phân tích, thiết kế một database trong dự án thực tế sẽ như thế nào (xem thử có ăn được
+            không 😀 ).
+          Mà muốn phân tích được, trước tiên bạn phải xác định được dự án của chúng ta cần gì, lưu trữ cái gì vàng bạc
+            hay là kim cương, bao gồm những chức năng ra sao. Quên rồi thì có thể xem lại bài trước Dự án Java web tin
+            tức với JSP Servlet – Bài 1: Phân tích và giới thiệu yêu cầu dự án bạn nhé.</textarea>
+              </li>
+              <li>
+                <label>Hình ảnh*</label>
+                <input type="file" name="image" />
+              </li>
+              <li class="buttons">
+                <input type="submit" name="submit" value="Sửa tin" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Danh mục</h2>
+        <ul>
+            <li>
+                <a href="cat.html">Thể Thao</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+            <li>
+                <a href="cat.html">Thế Giới</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+            <li>
+                <a href="cat.html">Giải Trí</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+            <li>
+                <a href="cat.html">Cảnh Đẹp</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+            <li>
+                <a href="cat.html">Món Ăn</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+            <li>
+                <a href="cat.html">Công Nghệ</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+            <li>
+                <a href="cat.html">Làm Đẹp</a> (
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px" href="edit-cat.html">Sửa</a>                            |
+                <a style="background: none; font-weight: normal; color: red; padding: 0px; font-size: 13px"
+                    href="">Xóa</a>)
+            </li>
+        </ul>
+    </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+
+
+        <footer>
+
+            <div class="footer-main">
+        
+                <div class="row">  
+        
+                   <div class="col-four tab-full mob-full footer-info">            
+        
+                     <h4>Giới thiệu</h4>
+        
+                        <p>
+                           Chúng tôi tự hào là WebSite về tin tức mới nhất , cập nhật các thông tin nhanh chống.
+                           Nơi các tác giả có thể thỏa sức sáng tạo , nơi các đọc giả có thể tìm kiếm các thông tin hay, mới lạ và hữu ích
+                           </p>
+        
+                   </div> <!-- end footer-info -->
+        
+                   <div class="col-two tab-1-3 mob-1-2 site-links">
+        
+                       <h4>Site Links</h4>
+        
+                       <ul>
+                           <li><a href="#">About Us</a></li>
+                             <li><a href="#">Blog</a></li>
+                             <li><a href="#">FAQ</a></li>
+                             <li><a href="#">Terms</a></li>
+                             <li><a href="#">Privacy Policy</a></li>
+                         </ul>
+        
+                   </div> <!-- end site-links -->  
+        
+                   <div class="col-two tab-1-3 mob-1-2 social-links">
+        
+                       <h4>Social</h4>
+        
+                       <ul>
+                           <li><a href="#">Twitter</a></li>
+                             <li><a href="#">Facebook</a></li>
+                             <li><a href="#">Dribbble</a></li>
+                             <li><a href="#">Google+</a></li>
+                             <li><a href="#">Instagram</a></li>
+                         </ul>
+                                  
+                   </div> <!-- end social links --> 
+        
+                   <div class="col-four tab-1-3 mob-full footer-subscribe">
+        
+                       <h4>Subscribe</h4>
+        
+                       <p>Keep yourself updated. Subscribe to our newsletter.</p>
+        
+                       <div class="subscribe-form">
+                   
+                           <form id="mc-form" class="group" novalidate="true">
+        
+                                 <input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required=""> 
+                    
+                                <input type="submit" name="subscribe" >
+                    
+                                <label for="mc-email" class="subscribe-message"></label>
+                 
+                             </form>
+        
+                       </div>	      		
+                                  
+                   </div> <!-- end subscribe -->         
+        
+               </div> <!-- end row -->
+        
+            </div> <!-- end footer-main -->
+        
+           <div class="footer-bottom">
+               <div class="row">
+        
+                   <div class="col-twelve">
+                       <div class="copyright">
+                          <span>© Copyright Abstract 2016</span> 
+                          <span>Design by <a href="#">styleshout</a></span>		         	
+                      </div>
+        
+                      <div id="go-top">
+                         <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+                      </div>         
+                   </div>
+        
+               </div> 
+           </div> <!-- end footer-bottom -->  
+        
+        </footer>  
+        
+        <div id="preloader"> 
+             <div id="loader"></div>
+        </div> 
+        
+           <!-- masonry
+           ================================================== -->
+           
+           <!-- Java Script
+           ================================================== --> 
+           <script src="js/jquery-2.1.3.min.js"></script>
+           <script src="js/plugins.js"></script>
+           <script src="js/jquery.appear.js"></script>
+           <script src="js/main.js"></script>
+        
+
+</html>
